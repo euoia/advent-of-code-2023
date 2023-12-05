@@ -68,10 +68,6 @@ for (const line of lines) {
   }
 }
 
-//console.dir(data, { depth: null });
-
-let closestLocation = Infinity;
-
 const stateRanges = [];
 for (const seed of data.seeds) {
   const startState = "seed";
